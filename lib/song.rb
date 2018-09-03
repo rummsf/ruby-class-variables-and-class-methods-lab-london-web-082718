@@ -30,6 +30,8 @@ class Song
     @@artists
   end 
   
+  
+  
   def self.artist_count
     @@artists << @artist if !@@artists.include?(@artist)
   end
